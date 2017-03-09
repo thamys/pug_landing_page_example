@@ -1,0 +1,26 @@
+section#contact.white-bg
+    .container
+        .row
+            .col-md-3
+                h3.title-small
+                    span Contact
+                p.content-detail
+                    | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+            .col-md-9.content-right
+                form
+                    .group
+                        input(required='', type='text')
+                        span.highlight
+                        span.bar
+                        label Name
+                    .group
+                        input(required='', type='email')
+                        span.highlight
+                        span.bar
+                        label Email
+                    .group
+                        textarea(required='')
+                        span.highlight
+                        span.bar
+                        label Message
+                    input#sendMessage(name='sendMessage', type='submit', value='Send Message')
